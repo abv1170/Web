@@ -1,0 +1,44 @@
+body
+{
+    background-color:lightpink; 
+}
+
+.header
+{
+    background-color: lightpink;
+    height: 80px;
+    padding: 0 20%;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.header a
+{
+    margin-right: 25px;
+    color: #121315;
+    text-decoration: none;/*quita el subrayado de mi menu*/
+}
+
+/*efecto para mi menu*/
+
+.header a:hover
+{
+    color: #A324CD;
+}
+
+.nav-list
+{
+    list-style-type: none;/*quita las viñetas*/
+    margin: 0;
+    padding: 0;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.nav-list li
+{
+    margin-right: 40px; /*agregas un margen a la derecha del menu entre palabras*/
+}
